@@ -1,0 +1,16 @@
+﻿<Window
+    x:Class="TransparentWindow.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:TransparentWindow"
+    mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="500"
+    Width="1017" Height="629" WindowStartupLocation="CenterScreen"
+    Background="Transparent" WindowStyle="SingleBorderWindow"
+    WindowState="Normal" ResizeMode="CanMinimize">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0" UseAeroCaptionButtons="False" GlassFrameThickness="-1" NonClientFrameEdges="None" ResizeBorderThickness="0" CornerRadius="0"/>
+    </WindowChrome.WindowChrome>
+    <Grid Background="#4CFFFFFF"/>
+</Window>
