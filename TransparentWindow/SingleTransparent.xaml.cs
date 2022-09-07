@@ -1,8 +1,8 @@
 ﻿namespace TransparentWindow;
 
-public partial class MainWindow : Window
+public partial class SingleTransparent : Window
 {
-    public MainWindow ()
+    public SingleTransparent ()
     {
         this.InitializeComponent();
         this.Loaded += this.MainWindow_Loaded;
